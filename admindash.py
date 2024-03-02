@@ -1,6 +1,6 @@
 from tkinter import *
 from PIL import ImageTk, Image
-from product import product_det
+# from product import product_det
 # from companyprofile import company_det
 import adminlogin
 import settings
@@ -23,7 +23,7 @@ class dashboard:
         
 
 # ===================backgroung image1============
-        bg1=Image.open(r"/home/more/Downloads/bg2.jpg")
+        bg1=Image.open(r"bg2.jpg")
         bg1=bg1.resize((1550,140))
         self.bgimage1=ImageTk.PhotoImage(bg1)
 
@@ -31,7 +31,7 @@ class dashboard:
         bg1label.place(x=0,y=0,width=1550,height=140)
 
 # ================logo============================
-        logo=Image.open(r"/home/more/Downloads/logo.png")
+        logo=Image.open(r"logo.png")
         logo=logo.resize((150,140))
         self.logoimage=ImageTk.PhotoImage(logo)
 
